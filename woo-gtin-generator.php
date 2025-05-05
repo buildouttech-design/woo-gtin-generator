@@ -42,6 +42,8 @@ add_action( 'plugins_loaded', function() {
 
 });
 
+require_once __DIR__ . '/includes/class-woo-gtin-generator.php';
+Woo_Gtin_Generator::instance();
 
 
 
